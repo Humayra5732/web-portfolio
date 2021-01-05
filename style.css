@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*##########################
+ Section 1 style starts here
+ ############################
+  */
+
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color: rgb(196, 30, 140);
+}
+.half-width{
+    width: 40%;
+   float: left;
+    margin-left: 5%;
+    padding-left: 2%; 
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+text-decoration: none;
+color: white;
+background-color: rgb(194, 27, 111);
+text-transform: uppercase;
+margin: 3px;
+padding:10px 40px;
+border-radius: 5px;
+font-weight: 700;
+}
+
+/*##########################
+ Section 1 style ends here
+ ############################
+  */
+
+
+  
+  /*##########################
+ Section 2 style starts here
+ ############################
+  */
+  .second-half-width{
+      margin-top: 70px;
+      width: 40%;
+      float: left;
+      margin-left: 5%;
+    padding-left: 2%; 
+  }
+
+  .second-half-width img{
+      width: 100%;
+  }
+  .second-section{
+      background-image: url("images/dream-bg.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      
+      
+  }
+  .link-button2{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(86, 168, 223);
+    text-transform: uppercase;
+    margin: 3px;
+    padding:10px 50px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  p{
+      color: dimgrey;
+  }
+  /*##########################
+ Section 2 style ends here
+ ############################
+  */
+.third-section{
+    margin-top: 99px;
+}
+
+.third-half-width{
+    width: 40%;
+    float: left;
+     margin-left: 5%;
+     padding-left: 2%; 
+}
+.header{
+    text-align: left;
+}
+
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+.third-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple , deeppink);
+    border-image-slice: 1;
+
+}
+#baby-dev{
+    border-left:7px solid ;
+    border-image: linear-gradient(peru , tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+ text-align: center;
+}
